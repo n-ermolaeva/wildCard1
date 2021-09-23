@@ -1,5 +1,5 @@
 public class Stats<T extends Number> {
-    T[] nums;
+    private T[] nums;
 
     Stats(T[] o) {
         nums = o;
